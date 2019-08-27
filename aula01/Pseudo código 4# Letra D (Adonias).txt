@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+// Disciplina   : [Lógica de Programação]
+// Professor   : Adonias Pires
+// Descrição   : Entrar com o raio de um círculo
+//               e imprimir seu perímetro e sua área.
+// Autor(a)    : Leandro dos Santos Castelo Branco da Silva
+// Data atual  : 26/08/2019
+Var
+// Seção de Declarações das variáveis 
+
+raio, perimetro, area: real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva ("Insira o raio de um círculo para definir seu perímetro e sua área: ")
+leia (raio)
+perimetro <- 2*pi*raio
+escreva (" O perímetro do seu círculo é: ", perimetro )
+area <- pi*raio^2
+escreva (" A área do seu círculo é: ", area )
+
+
+
+Fimalgoritmo
+
